@@ -314,7 +314,7 @@ else:
         pdf.multi_cell(0, 4, "- Tariff-Free Access: Sourced under the EU-SADC Economic Partnership Agreement. EUR.1 Movement Certificate provided for 0% customs entry.\n- Framework Compliance: Sourced in strict alignment with the Nagoya Protocol and EU Cosmetic Regulations (EC) 1223/2009 parameters.")
         
         # Generate PDF
-        pdf_output = pdf.output(dest='S').encode('latin-1')
+    pdf_output = pdf.output()
         
         # Download button
         st.download_button(
